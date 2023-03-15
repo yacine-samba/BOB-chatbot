@@ -12,7 +12,7 @@ export const Message = ({ message }: MessageProps) => {
 
   const isUser = message.role === 'user';
 
-  const imageUrl = isUser ? '/avatar.webp' : '/ia.png';
+  const imageUrl = isUser ? '/avatar.png' : '/iabob.png';
 
   return (
     <li
